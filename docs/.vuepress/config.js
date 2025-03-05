@@ -5,12 +5,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'demo',
+  title: 'LiKE的小窝',
   description: 'null',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://oss.yoake.cc/like/avatar-like.webp' }],
   ],
 
   bundler: viteBundler(),
@@ -19,6 +19,10 @@ export default defineUserConfig({
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://LiKEKFA.github.io',
+
+    footer: {
+      message: "Copyright ©️ 2025 LiKEKFA | Powered by VuePress & vuepress-theme-plume",
+    },
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
