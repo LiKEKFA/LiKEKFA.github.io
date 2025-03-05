@@ -1,7 +1,7 @@
 ---
 friends: true
 draft: true
-title: 黎可的亲友's
+title: 黎可の亲友s
 description: ' 海内存知己，天涯若比邻 '
 permalink: /friends/
 list:
