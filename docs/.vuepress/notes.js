@@ -12,8 +12,26 @@ const lyrics = defineNoteConfig({
   sidebar: 'auto',
 })
 
+const C = defineNoteConfig({
+  dir: 'C',
+  link: '/CNotes',
+  sidebar: 'auto',
+})
+
+const CSharp = defineNoteConfig({
+  dir: 'C#',
+  link: '/CSharpNotes',
+  sidebar: 'auto',
+})
+
+const Java = defineNoteConfig({
+  dir: 'Java',
+  link: '/JavaNotes',
+  sidebar: 'auto',
+})
+
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [demoNote, lyrics],
+  notes: [demoNote, lyrics, C, CSharp, Java],
 })
