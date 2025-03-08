@@ -19,7 +19,7 @@ const C = defineNoteConfig({
 })
 
 const CSharp = defineNoteConfig({
-  dir: 'C#',
+  dir: 'CSharp',
   link: '/CSharpNotes',
   sidebar: 'auto',
 })
