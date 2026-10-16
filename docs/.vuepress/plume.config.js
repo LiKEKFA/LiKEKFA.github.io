@@ -6,7 +6,7 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://oss.yoake.cc/like/avatar-like.webp',
+  logo: 'https://avatars.githubusercontent.com/u/147065872?v=4',
 
   appearance: true,  // 配置 深色模式
 
@@ -38,9 +38,10 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://oss.yoake.cc/like/avatar-like.webp',
+    avatar: 'https://avatars.githubusercontent.com/u/147065872?v=4',
     name: '黎可KFA',
-    description: '黎电池可可可爆炸<br>(悠悠让我写的)',
+
+    description: '世界树',
     // circle: true,
     // location: '',
     // organization: '',

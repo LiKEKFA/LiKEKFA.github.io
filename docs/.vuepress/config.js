@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://oss.yoake.cc/like/avatar-like.webp' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://avatars.githubusercontent.com/u/147065872?v=4' }],
   ],
 
   bundler: viteBundler(),
